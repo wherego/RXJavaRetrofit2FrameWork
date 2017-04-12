@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
+import com.gzh.wolfwang.commonlib.utils.ToastUtils;
+
 /**
  * author：WolfWang
  * date：2017/4/12 09:09
@@ -37,13 +39,10 @@ public class BaseActivity  extends AppCompatActivity implements IBaseActivity{
         super.onDestroy();
     }
 
-    @Override
-    public void showLog(String text) {
-
-    }
 
     @Override
     public void showToast(String text) {
+        ToastUtils.showToastShort(this,text);
 
     }
 

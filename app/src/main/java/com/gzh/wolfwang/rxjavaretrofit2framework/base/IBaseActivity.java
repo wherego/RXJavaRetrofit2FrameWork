@@ -9,15 +9,6 @@ package com.gzh.wolfwang.rxjavaretrofit2framework.base;
 
 public interface IBaseActivity {
 
-
-
-    /**
-     * log
-     *
-     * @param text
-     */
-    void showLog(String text);
-
     /**
      * 吐司
      *
@@ -39,10 +30,5 @@ public interface IBaseActivity {
      * 判断是否有网络连接,没有返回false
      */
     boolean isInternetConnected();
-
-
-
-
-
 
 }
