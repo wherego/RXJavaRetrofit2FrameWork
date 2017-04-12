@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/RXJavaRetrofit2FrameWork.iml" filepath="$PROJECT_DIR$/RXJavaRetrofit2FrameWork.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/commonlib/commonlib.iml" filepath="$PROJECT_DIR$/commonlib/commonlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modeldomain/modeldomain.iml" filepath="$PROJECT_DIR$/modeldomain/modeldomain.iml" />
     </modules>
   </component>
 </project>

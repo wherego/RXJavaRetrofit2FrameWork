@@ -1,7 +1,9 @@
-package com.gzh.wolfwang.rxjavaretrofit2framework;
+package com.gzh.wolfwang.rxjavaretrofit2framework.ui.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.gzh.wolfwang.rxjavaretrofit2framework.R;
 
 public class MainActivity extends AppCompatActivity {
 
