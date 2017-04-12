@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
+import com.gzh.wolfwang.commonlib.utils.NetWorkUtils;
 import com.gzh.wolfwang.commonlib.utils.ToastUtils;
 
 /**
@@ -58,6 +59,6 @@ public class BaseActivity  extends AppCompatActivity implements IBaseActivity{
 
     @Override
     public boolean isInternetConnected() {
-        return false;
+        return NetWorkUtils.isConnected(this);
     }
 }
