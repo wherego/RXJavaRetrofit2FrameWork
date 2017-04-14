@@ -46,6 +46,7 @@ public class NetWorkUtils {
 
     /**
      * 判断是否是wifi连接
+     * 在播放视频的时候进行判断
      */
     public static boolean isWifi(Context context) {
         ConnectivityManager cm = (ConnectivityManager) context
