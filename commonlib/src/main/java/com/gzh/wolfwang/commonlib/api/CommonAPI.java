@@ -5,7 +5,6 @@ import java.util.Map;
 import io.reactivex.Observable;
 import okhttp3.RequestBody;
 import okhttp3.ResponseBody;
-import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Multipart;
 import retrofit2.http.POST;
@@ -38,6 +37,7 @@ public interface CommonAPI {
 
     /**
      * 请求连接地址加上map的请求通过注解get进行标记请求方式
+     *
      * @param url
      * @param maps
      * @return
@@ -50,6 +50,7 @@ public interface CommonAPI {
 
     /**
      * 同上，这个是post请求
+     *
      * @param url
      * @param maps
      * @return
@@ -61,6 +62,7 @@ public interface CommonAPI {
 
     /**
      * 通过提交表单的形式进行的post请求，上传图片的时候会用到
+     *
      * @param url
      * @param avatar
      * @return
@@ -74,6 +76,7 @@ public interface CommonAPI {
 
     /**
      * 上传文件
+     *
      * @param url
      * @param headers
      * @param description
@@ -89,6 +92,7 @@ public interface CommonAPI {
 
     /**
      * 进行下载文件
+     *
      * @param fileUrl
      * @return
      */

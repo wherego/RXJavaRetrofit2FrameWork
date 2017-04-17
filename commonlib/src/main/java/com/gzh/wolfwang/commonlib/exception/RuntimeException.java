@@ -8,4 +8,9 @@ package com.gzh.wolfwang.commonlib.exception;
  */
 
 public class RuntimeException extends java.lang.RuntimeException {
+
+
+
+
+
 }
