@@ -7,6 +7,7 @@ import android.app.Application;
  * date：2017/4/11 17:00
  * e-mail：1678173987@qq.com
  * description：全局application
+ *
  */
 
 public class MyApplication extends Application{
