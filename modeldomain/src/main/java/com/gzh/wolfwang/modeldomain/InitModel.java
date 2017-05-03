@@ -18,5 +18,7 @@ public class InitModel {
 
     //进行初始化数据库
     private static void initDatabase(Context context) {
+
+
     }
 }
