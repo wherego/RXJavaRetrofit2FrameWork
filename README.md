@@ -7,4 +7,4 @@
 4.greendao，greendao是轻快的一个android数据库框架，采用映射的方式，调用android 原生的SQLite数据库；
 5.fresco,处理图片，可加载图片，管理内存的一个很强大的facebook的一个框架，相对于imageloader，算是一个在图片处理方面算是一匹黑马；
 6.RxAndroid ,square特别针对android开发的用于管理android生命周期的一个框架；
-7.
+现在android开发中mvc,mvp，mvvm这几种模式是最常用的，在这集中模式中，mvp模式更深入人心，在这个项目中，我将以mvp模式进行编写
